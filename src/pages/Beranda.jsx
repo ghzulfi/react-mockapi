@@ -10,9 +10,11 @@ function Beranda() {
     <>
       <main className="container">
         <Navbar />
-        <Section />
-        <Card />
-        <Newsletter />
+        <section className="section">
+          <Section />
+          <Card />
+          <Newsletter />
+        </section>
         <Footer />
       </main>
     </>
